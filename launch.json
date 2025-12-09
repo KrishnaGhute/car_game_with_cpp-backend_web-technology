@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug SFML Server",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "c:/Users/krish/OneDrive/Desktop/high_way_racing/server.exe",
+      "args": [
+        "9002"
+      ],
+      "stopAtEntry": false,
+      "cwd": "c:/Users/krish/OneDrive/Desktop/high_way_racing",
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/krish/OneDrive/Desktop/high_way_racing",
+      "program": "c:/Users/krish/OneDrive/Desktop/high_way_racing/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
